@@ -1,12 +1,16 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { BookOpen, ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br from-mentor-light/20 to-white pt-24 pb-16">
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMwMDAiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PHBhdGggZD0iTTM2IDM0aDR2MWgtNHYtMXptMC0xN2g0djFoLTR2LTF6TTE2IDM0aDR2MWgtNHYtMXptMC0xN2g0djFoLTR2LTF6TTQgNGgxdjFINFY0em0wIDE3aDEydjFINHYtMXptMCAxN2gxMnYxSDR2LTF6TTM2IDRoMXYxaC0xVjR6bTExIDBoMXYxaC0xVjR6TTM2IDIyaDEydjFIMzZ2LTF6bTAgMTdoMTJ2MUgzNnYtMXpNNDcgNGgxdjFoLTFWNHptMTEgMGgxdjFoLTFWNHptLTExIDE3aDEydjFINDd2LTF6bTAgMTdoMTJ2MUg0N3YtMXpNNTggNGgxdjFoLTFWNHoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-30"></div>
+    <div className="relative overflow-hidden pt-24 pb-16">
+      <div className="absolute inset-0 bg-gradient-to-br from-mentor-light/20 to-white"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiM0Q0FGNTAiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0aDR2MWgtNHYtMXptMC0xN2g0djFoLTR2LTF6TTE2IDM0aDR2MWgtNHYtMXptMC0xN2g0djFoLTR2LTF6TTQgNGgxdjFINFY0em0wIDE3aDEydjFINHYtMXptMCAxN2gxMnYxSDR2LTF6TTM2IDRoMXYxaC0xVjR6bTExIDBoMXYxaC0xVjR6TTM2IDIyaDEydjFIMzZ2LTF6bTAgMTdoMTJ2MUgzNnYtMXpNNDcgNGgxdjFoLTFWNHptMTEgMGgxdjFoLTFWNHptLTExIDE3aDEydjFINDd2LTF6bTAgMTdoMTJ2MUg0N3YtMXpNNTggNGgxdjFoLTFWNHoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-40"></div>
+      
+      <div className="absolute top-20 right-10 w-64 h-64 rounded-full bg-mentor/5 blur-3xl"></div>
+      <div className="absolute bottom-10 left-10 w-96 h-96 rounded-full bg-mentor/10 blur-3xl"></div>
+      
       <div className="container mx-auto px-4 sm:px-6 relative">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 space-y-8 text-center lg:text-left">
