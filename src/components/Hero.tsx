@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { BookOpen, ArrowRight } from "lucide-react";
@@ -44,6 +45,15 @@ const Hero = () => {
             <div className="glass-panel p-8 relative overflow-hidden">
               <div className="absolute -top-12 -right-12 w-32 h-32 bg-mentor/20 rounded-full"></div>
               <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-mentor/10 rounded-full"></div>
+              
+              <div className="relative mb-6 rounded-xl overflow-hidden shadow-lg">
+                <img 
+                  src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                  alt="Women in education" 
+                  className="w-full h-auto object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+              </div>
               
               <h3 className="text-2xl font-bold mb-4">Meet Your AI Mentor</h3>
               <p className="text-muted-foreground mb-6">
